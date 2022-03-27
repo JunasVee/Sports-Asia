@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="images/lebronlogo.jpg" type="image/x-icon">
+    <title>Sports Asia</title>
+</head>
+<body>
+    <div class="banner">
+        <nav>
+        <div class="navbar">
+            <h1 class="logo">We Worth It!</h1>
+            <ul>
+                <li><a href=".content" class="active">Home</a></li>
+                <li><a href="#sports">Sports</a></li>
+                <li><a href="#my-program">programs</a></li>
+                <li><a href="#review">Review</a></li>
+                <li><a href="#footer">Contact Us</a></li>
+            </ul>
+        </div>
+        </nav>
+
+<section>
+<!--Introduction-->
+        <div class="content">
+            <h1>SPORTS ASIA</h1>
+            <p>Best and largest sports community in Asia!<br>
+            Thousands of training programs are available for<br> Beginner, Intermediate, and Advanced athletes.</p>
+            <div>
+                <button type="button" class="button1"><span4></span4>JOIN US</button>
+                <button type="button" class="button1"><span4></span4>LEARN MORE</button>
+            </div>
+        </div>
+<!--Login Form-->
+        <div class="loginform">
+            <div class="buttonbox">
+                <div id="btn"></div>
+                <button type="button" id="btn-1" class="toggle-btn btn-1" onclick="login()">Log In</button>
+                <button type="button" id="btn-2" class="toggle-btn btn-2" onclick="register()">Register</button>
+            </div>
+            <form id="login" class="inputgroup">
+                <input type="text" class="inputfield" placeholder="Username" required>
+                <input type="password" class="inputfield" placeholder="Password" required>
+                <input type="checkbox" class="check-box"><span1>Remember Password</span1>
+                <button type="submit" class="submitbtn">Log In</button>
+            </form>
+
+            <form id="register" class="inputgroup">
+                <input type="text" class="inputfield" placeholder="Username" required>
+                <input type="text" class="inputfield" placeholder="Email/Phone Number" required>
+                <input type="password" class="inputfield" placeholder="Password" required>
+                <input type="checkbox" class="check-box"><span1>I agree to the terms &amp; conditions </span1>
+                <button type="submit" class="submitbtn">Register</button>
+            </form>
+            </div>
+        </div>
+</section>
+<!--Available Sports-->
+<section>
+    <div id="sports" class="sports">
+        <h1>The Sports We Play!</h1>
+        <p>These are some of the sports that we provide in our community,<br>make sure your sport branch is available in our list before making any payment.</p>
+        <div class="row">
+            <div class="column">
+                <a href="#"><img class="basketball-img" src="https://www.masterclass.com/course-images/attachments/6zx7878KdosvRmjEgdpf39Db?width=400&height=400&fit=cover&dpr=2" alt="basketball"></a>
+                <a href="#"><img class="soccer-img" src="https://static01.nyt.com/images/2020/09/25/sports/25soccer-nationalWEB1/merlin_177451008_91c7b66d-3c8a-4963-896e-54280f374b6d-superJumbo.jpg"></a>
+                <a href="#"><img class="swimming-img" src="https://i.guim.co.uk/img/media/db15dd6f8c3463572c2e7e1f35ad98053b1dba3b/0_61_2961_1776/master/2961.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=66a330c43116814dc3ac229a67007e21"></a>
+                <a href="#"><img class="us-football-img" src="https://www.opromouthguards.com/media/wysiwyg/OPRO-amfoot.jpg"></a>
+            </div>
+        </div>
+        <button type="button">SEE MORE</button>
+    </div>
+</section>
+<!--Programs-->
+<section id="my-program" class="my-program">
+  <div class="programs">
+    <div class="program-text">
+      <p>Our Programs</p>
+      <p>These are the programs we provide for any level of skills,<br>please pick which one suits you! <br>
+        (One program for one sport branch).
+      </p>
+    </div>
+    <!--Program-boxes-->
+    <div class="box-container">
+      <div class="box-1">
+        <span><i class="fas fa-play-circle"></i></span>
+        <p class="heading">Starter</p>
+        <p class="details">Want to be good at sport but have no experience? This plan is
+          targeted for an absolute beginner who wants to learn. We provide a guarantee money back for this plan.
+        </p>
+        <a href="#"><button class="readmore-btn">$10-$15/month</button></a>
+      </div>
+      <div class="box-2">
+        <span><i class="fas fa-basketball-ball"></i></span>
+        <p class="heading">Intermediate</p>
+        <p class="details">If you want to evelate your ability in this field you should definitely
+          pick this plan, not too basic not too advanced. You will notice unexpected improvements.
+        </p>
+        <a href="#"><button class="readmore-btn">$20-$40/month</button></a>
+      </div>
+      <div class="box-3">
+        <span><i class="fas fa-fire-alt"></i></span>
+        <p class="heading">Professional</p>
+        <p class="details">Having a decent skill and reaching for a further career like making the NBA or NFL?
+          we recommend you to take this plan! Remember, we don't give any guarantee.
+        </p>
+        <a href="#"><button class="readmore-btn">$50+/month</button></a>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Review-->
+<section id="review" class="review">
+  <div class="rui-div">
+    <img class="rui" src="https://cdn.vox-cdn.com/thumbor/t6doPddhfOrqwJDvYXqsH5ZjdB4=/0x0:2293x3439/1200x800/filters:focal(1038x505:1404x871)/cdn.vox-cdn.com/uploads/chorus_image/image/65575916/1183006862.jpg.0.jpg" alt="Rui">
+  </div>
+  <div class="review-part">
+    <h1 class="rui-h1">What Our Alumni Said</h1>
+    <p class="rui-p">"I'm so grateful for attending Sports Asia's program before<br>I made the league.
+      I learned a lot from them and it was exciting, intense and astonishing. Their plans were
+      impressively outstanding, so unbelievable that somehow it made me got into the NBA. I hope
+      they can bring even better basketball future generations!"</p>
+    <p class="rui-p2">- Rui Hachimura -<br> 2020 NBA Draft class</p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer id="footer">
+  <h1>OUR SOCIALS</h1>
+    <div class="social-icons">
+
+      <a href="https://www.instagram.com/_junas23_/" 
+      target="_blank" class="btn contact-details">
+      <i class="fab fa-instagram"></i> Instagram
+      </a>
+
+      <a href="https://www.facebook.com/legendsofgaming.legendsofgaming/" 
+      target="_blank" class="btn contact-details">
+      <i class="fab fa-facebook-square"></i> Facebook
+      </a>
+
+      <a id="profile-link" href="https://github.com/JunasVee/JunasVee/projects" 
+      target="_blank" class="btn contact-details">
+      <i class="fab fa-github"></i> GitHub
+      </a>   
+
+    </div>
+    <!--My Copyright-->
+    <p>©2021 Copyright, Junas</p>
+</footer>
+</body>
+
+<script>
+    var x = document.getElementById("login");
+    var y = document.getElementById("register");
+    var z = document.getElementById("btn");
+
+    //color changing
+
+
+
+    function register(){
+        document.getElementById("btn-1").style.color = "black";
+        document.getElementById("btn-2").style.color = "whitesmoke";
+        x.style.left = "-400px";
+        y.style.left = "50px";
+        z.style.left = "110px";
+    }
+
+    function login(){
+        document.getElementById("btn-1").style.color = "whitesmoke";
+        document.getElementById("btn-2").style.color = "black";
+        x.style.left = "50px";
+        y.style.left = "450px";
+        z.style.left = "0";
+    }
+    
+</script>
+
+</html>
